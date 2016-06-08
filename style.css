@@ -1,0 +1,27 @@
+body {
+  background: #E4F8F7;	
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+div#wrapper {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 1000px;
+  height: 1000px;
+}
+a {
+	display: block;
+	padding: 5px;
+	background: #fff;
+	color: #2F2F2F;
+	font-size: 2em;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;	
+	text-decoration: none;
+}
+[draggable] {
+  cursor: move;
+}
